@@ -944,7 +944,7 @@ Disassembly of <code object legal_business at 0x7f2af9216630, file "Which.py", l
 
 </details>
 
-### 🔎 Step 3: Follow Bytecode Instructions  
+### 🔎 Step 4: Follow Bytecode Instructions  
 By analyzing the bytecode, we notice several fake flags (`magpieCTF{Ro+_7hir+een}`), hinting that **ROT13 obfuscation** is used. Decoding `purpx_svanapvny_erpbeqf` with ROT13 gives `check_financial_records`. Looking at the function `financial_records`, we find:
 
 ```python

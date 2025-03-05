@@ -69,7 +69,7 @@ From the output, we see multiple references to **Python 3.12**, suggesting that 
 
 ### 🛡️ Step 2: Extracting the Python Code  
 
-Since we suspect this is a **Compiled Python Binary** binary, we can extract its contents using `pyinstxtractor`:  
+Since we suspect this is a **Compiled Python Binary**, we can extract its contents using `pyinstxtractor`:  
 
 📌 **Download `pyinstxtractor` from:**  
 [🔗 GitHub: pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor)  

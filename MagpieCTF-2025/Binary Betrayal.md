@@ -3,8 +3,7 @@
 ## 🔹 Challenge: Binary Betrayal  
 - **📝 Author:** Manav  
 - **📂 Category:** Reversing  
-- **🎯 Points:** 910  
-- **⚖️ Difficulty:** Medium/Hard  
+- **🎯 Points:** 910   
 - **🏆 CTF Event:** [MagpieCTF](https://magpiectf.ca/)  
 - **📅 Date:** 2025-02-21  
 

@@ -134,7 +134,7 @@ python3 disassembler.py Which.pyc
 This will output **Python bytecode**, which we can analyze to reconstruct the original script.
 
 <details>
-  <summary>Click to reveal full bytecode Output</summary>
+  <summary>Click to reveal full bytecode</summary>
 
   ```
     0           0 RESUME                   0

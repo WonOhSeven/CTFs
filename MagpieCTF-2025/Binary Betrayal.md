@@ -129,7 +129,7 @@ if __name__ == "__main__":
 Run this script:  
 
 ```bash
-python3 disassembler.py Which.pyc
+python3 disassembler.py
 ```
 This will output **Python bytecode**, which we can analyze to reconstruct the original script.
 

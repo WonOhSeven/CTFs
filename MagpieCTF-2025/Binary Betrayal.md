@@ -1,4 +1,4 @@
-# 🏆 Capture The Flag (CTF) Writeups  
+# 🏆 Capture The Flag (CTF) Writeup  
 
 ## 🔹 Challenge: Binary Betrayal  
 - **📝 Author:** Manav  

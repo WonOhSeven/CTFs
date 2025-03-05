@@ -132,6 +132,8 @@ Run this script:
 ```bash
 python3 disassembler.py Which.pyc
 ```
+This will output **Python bytecode**, which we can analyze to reconstruct the original script.
+
 <details>
   <summary>Click to reveal full bytecode Output</summary>
 
@@ -942,9 +944,6 @@ Disassembly of <code object legal_business at 0x7f2af9216630, file "Which.py", l
   ```
 
 </details>
-
-
-This will output **Python bytecode**, which we can analyze to reconstruct the original script.
 
 ### 🔎 Step 3: Follow Bytecode Instructions  
 By analyzing the bytecode, we notice several fake flags (`magpieCTF{Ro+_7hir+een}`), hinting that **ROT13 obfuscation** is used. Decoding `purpx_svanapvny_erpbeqf` with ROT13 gives `check_financial_records`. Looking at the function `financial_records`, we find:

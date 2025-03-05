@@ -957,14 +957,14 @@ Thus, the **flag is**:
 
 ## 🎯 Conclusion  
 
-- The challenge involved **analyzing a compiled ELF binary** that was actually a **PyInstaller package**.  
+- The challenge involved **analyzing a compiled ELF binary** that was actually a **Compiled Python Binaries**.  
 - We identified it as **Python 3.12** and used **pyinstxtractor** to extract `.pyc` files.  
 - Since modern Python versions make decompilation harder, we used **Python’s `dis` module** to analyze the bytecode instead.  
 
 🎯 **Next Steps:**  
 - Further reverse-engineer the bytecode to recover meaningful logic and extract the **hidden flag**.  
 
-🔍 **CTF Tip:** Always check for PyInstaller-packaged binaries when analyzing ELF/EXE files in reversing challenges!  
+🔍 **CTF Tip:** Always check for Compiled Python Binaries when analyzing ELF/EXE files in reversing challenges!  
 
 🚀 **Happy Hacking!**
 

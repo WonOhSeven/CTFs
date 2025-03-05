@@ -1,7 +1,7 @@
 # 🏆 Capture The Flag (CTF) Writeup  
 
 ## 🔹 Challenge: Binary Betrayal  
-- **📝 Author:** Manav  
+- **📝 Challenge Author:** Manav  
 - **📂 Category:** Reversing  
 - **🎯 Points:** 910   
 - **🏆 CTF Event:** [MagpieCTF](https://magpiectf.ca/)  

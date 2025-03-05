@@ -960,9 +960,6 @@ Thus, the **flag is**:
 - We identified it as **Python 3.12** and used **pyinstxtractor** to extract `.pyc` files.  
 - Since modern Python versions make decompilation harder, we used **Python’s `dis` module** to analyze the bytecode instead.  
 
-🎯 **Next Steps:**  
-- Further reverse-engineer the bytecode to recover meaningful logic and extract the **hidden flag**.  
-
 🔍 **CTF Tip:** Always check for Python-compiled Binaries when analyzing ELF/EXE files in reversing challenges!  
 
 🚀 **Happy Hacking!**

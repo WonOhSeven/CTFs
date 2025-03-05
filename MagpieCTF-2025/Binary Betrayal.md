@@ -957,7 +957,7 @@ Thus, the **flag is**:
 
 ## 🎯 Conclusion  
 
-- The challenge involved **analyzing a compiled ELF binary** that was actually a **Compiled Python Binaries**.  
+- The challenge involved **analyzing a compiled ELF binary** that was actually a **Compiled Python Binary**.  
 - We identified it as **Python 3.12** and used **pyinstxtractor** to extract `.pyc` files.  
 - Since modern Python versions make decompilation harder, we used **Python’s `dis` module** to analyze the bytecode instead.  
 

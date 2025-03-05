@@ -67,7 +67,7 @@ From the output, we see multiple references to **Python 3.12**, suggesting that 
 
 ---
 
-### ⚙️ Step 2: Extracting the Python Code  
+### 🛡️ Step 2: Extracting the Python Code  
 
 Since we suspect this is a **Compiled Python Binary** binary, we can extract its contents using `pyinstxtractor`:  
 
@@ -103,7 +103,7 @@ Inside, there's a key file: **`Which.pyc`**, which we need to analyze.
 
 ---
 
-### 🔎 Step 3: Disassembling `Which.pyc`  
+### 🖥️ Step 3: Disassembling `Which.pyc`  
 
 Since this is Python **3.12**, traditional decompilers (like `uncompyle6` or `decompile3`) **won’t work**. Instead, we can use Python’s built-in `dis` module to read its bytecode:  
 
@@ -944,7 +944,7 @@ Disassembly of <code object legal_business at 0x7f2af9216630, file "Which.py", l
 
 </details>
 
-### 🔎 Step 4: Follow Bytecode Instructions  
+### ⚙️ Step 4: Follow Bytecode Instructions  
 By analyzing the bytecode, we notice several fake flags (`magpieCTF{Ro+_7hir+een}`), hinting that **ROT13 obfuscation** is used. Decoding `purpx_svanapvny_erpbeqf` with ROT13 gives `check_financial_records`. Looking at the function `financial_records`, we find:
 
 ```python

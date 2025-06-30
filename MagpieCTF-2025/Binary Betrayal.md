@@ -51,7 +51,7 @@ Which: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically link
 This confirms that it's a **compiled ELF executable**. To check for useful strings, we use:  
 
 ```bash
-strings Which | grep python
+strings Which
 ```
 
 **Output (Excerpt):**  

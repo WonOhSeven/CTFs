@@ -23,8 +23,8 @@
 ---
 
 ## 📂 Files Provided  
-- [`Which`](#)  
-- [`Which.sha1.sig`](#)  
+- [`Which`](https://github.com/infosec-ucalgary/magpieCTF-2025/blob/main/rev/binary_betrayal/dist/Which)  
+- [`Which.sha1.sig`](https://github.com/infosec-ucalgary/magpieCTF-2025/blob/main/rev/binary_betrayal/dist/Which.sha1.sig)  
 
 ## 🛠️ Tools Used  
 - 🖥️ **Python**  

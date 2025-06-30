@@ -24,7 +24,7 @@
 
 ## 📂 Files Provided  
 - [`Which`](https://github.com/infosec-ucalgary/magpieCTF-2025/raw/refs/heads/main/rev/binary_betrayal/dist/Which)  
-- [`Which.sha1.sig`](https://github.com/infosec-ucalgary/magpieCTF-2025/blob/main/rev/binary_betrayal/dist/Which.sha1.sig)  
+- [`Which.sha1.sig`](https://github.com/infosec-ucalgary/magpieCTF-2025/blob/main/rev/binary_betrayal/dist/Which.sha1.sig) `430d22cca954379a05e9f35055787f87b5583558  ./dist/Which`
 
 ## 🛠️ Tools Used  
 - 🖥️ **Python**  

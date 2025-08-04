@@ -51,4 +51,4 @@
 | [Volatility 3](https://github.com/volatilityfoundation/volatility3) | Memory analysis framework. |
 | [Autopsy](https://www.autopsy.com/) | GUI-based digital forensic platform. |
 | [Velociraptor - DeadDisk](https://docs.velociraptor.app/blog/2022/2022-03-22-deaddisk/) | Disk artifact recovery with Velociraptor. |
-| [dissect](https://github.com/fox-it/dissect) | Disk analysis. |
+| [Dissect](https://github.com/fox-it/dissect) | Disk analysis. |
